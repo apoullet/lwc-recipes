@@ -18,7 +18,7 @@ describe('c-hello', () => {
 
         // Verify displayed greeting
         const div = element.shadowRoot.querySelector('div');
-        expect(div.textContent).toBe('Something Wrong.');
+        fail("This test should fail.")
     });
 
     it('is accessible', async () => {
